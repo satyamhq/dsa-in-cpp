@@ -5,16 +5,16 @@ int main(){
     int x = 5;
     cout << x << endl;  //5
 
-    x++;
+    x++;  // Post increment
     cout << x << endl;  // 6
 
-    ++x;
+    ++x;  // Pre increment
     cout << x << endl;  // 7
 
-    x--;
+    x--;  // Post Decrement
     cout << x << endl;  //6
 
-    --x;
+    --x;  // Pre Decrement
     cout << x << endl;  / 5
 
     return 0;
