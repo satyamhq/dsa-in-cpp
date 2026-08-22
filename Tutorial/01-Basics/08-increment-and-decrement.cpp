@@ -15,7 +15,7 @@ int main(){
     cout << x << endl;  //6
 
     --x;  // Pre Decrement
-    cout << x << endl;  / 5
+    cout << x << endl;  // 5
 
     return 0;
 }
