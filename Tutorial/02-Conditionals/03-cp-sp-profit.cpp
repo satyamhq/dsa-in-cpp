@@ -10,12 +10,10 @@ int main(){
     cout << "Enter the selling price: ";
     cin >> sp;
 
-    profit = sp - cp;
-
     if (cp < sp){
-        cout << "You are making profit of: " << profit << endl; 
+        cout << "You are making profit of: " << sp - cp << endl; 
     } else if(cp > sp){
-        cout << "You are making loss of: " << profit << endl; 
+        cout << "You are making loss of: " <<  cp -sp << endl; 
     }else{
         cout << "You are not making profit or loss." << endl;
     }
