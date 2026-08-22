@@ -2,9 +2,11 @@
 using namespace std;
 
 int main(){
-    int x;
-    x = 5;
-    cout << x;
+    int x;  // declaration
+    x = 5;  // initailization
+    cout << x << endl;
+    cout << "x" << endl;
+    cout << x + 2;
 
     return 0;
 }
