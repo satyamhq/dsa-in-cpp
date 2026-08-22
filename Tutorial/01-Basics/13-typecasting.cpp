@@ -1,3 +1,5 @@
+// Typecasting is the process of converting a value from one data type to another data type.
+
 #include<iostream>
 using namespace std;
 
